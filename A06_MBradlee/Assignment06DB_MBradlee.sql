@@ -219,10 +219,10 @@ Deny Select On Products To Public;
 Deny Select On Employees To Public;
 Deny Select On Inventories To Public;
 
-Deny Select On vCategories To Public;
-Deny Select On vProducts To Public;
-Deny Select On vEmployees To Public;
-Deny Select On vInventories To Public;
+Grant Select On vCategories To Public;
+Grant Select On vProducts To Public;
+Grant Select On vEmployees To Public;
+Grant Select On vInventories To Public;
 
 -- Question 3 (10% pts): How can you create a view to show a list of Category and Product names, 
 -- and the price of each product?
